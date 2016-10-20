@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('newport.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 8vh;
+  background-color: #E8E8E8;
+  border-bottom-style: double;
+  border-bottom-width: 1vh;
+  border-top: .5vh solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.navItems {
+  display: inline-block;
+  padding: 4vh;
+}
+a {
+  font-size: 4vh;
+}
+.topbar {
+  text-decoration: none !important;
+  color: black;
+}
+.topbar:hover {
+  color: grey;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#name {
+  font-size: 12vh;
+  color: white;
+  text-align: center;
+}
+#title {
+  padding-top: 2vh;
+  font-size: 8vh;
+  color: white;
+  text-align: center;
+  margin-bottom: 15vh;
+}
+.direction {
+  position: absolute;
+  top: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#arrow {
+  height: 6vh;
+}
+#scroll {
+  color: white;
+  font-size: 4vh;
+}
+.pt1 {
+  background: rgba(240,237,240,.7);
+  background: -moz-linear-gradient(top, rgba(240,237,240,.7) 0%, rgba(158,155,158,.8) 34%, rgba(79,79,79,.9) 64%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,237,240,.7)), color-stop(34%, rgba(158,155,158,.8)), color-stop(64%, rgba(79,79,79,.9)), color-stop(87%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+  background: -webkit-linear-gradient(top, rgba(240,237,240,.7) 0%, rgba(158,155,158,.8) 34%, rgba(79,79,79,.9) 64%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(240,237,240,.7) 0%, rgba(158,155,158,.8) 34%, rgba(79,79,79,.9) 64%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(240,237,240,.7) 0%, rgba(158,155,158,.8) 34%, rgba(79,79,79,.9) 64%, rgba(0,0,00,0,0,1) 100%);
+  height: 100vh;
+  width: 100vw;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hello {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sayHello {
+  text-align: center;
+  font-size: 10vh;
+}
+#matt {
+  border-radius: 1000px;
+  height: 45vh;
+}
+.quick {
+  max-width: 700px;
+  background-color: #c9c9c9;
+  padding: 1vh;
+  border-radius: 5px;
+  line-height: 2.5vh;
+  margin-top: 3vh;
+  font-size: 2vh;
+}
+.pt2 {
+  background-color: black;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#portTitle {
+  color: white;
+}
+#game {
+  height: 15vh;
+  border: .5vh solid white;
+  padding: 2vh;
+}
+.pt3{
+  background: url('bridge.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.fade {
+ background: rgba(0,0,0,1);
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(79,79,79,.9) 34%, rgba(158,155,158,.8) 64%, rgba(240,237,240,.7) 87%, rgba(240,237,240,.7) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(34%, rgba(79,79,79,.9)), color-stop(64%, rgba(158,155,158,.8)), color-stop(87%, rgba(240,237,240,.7)), color-stop(100%, rgba(240,237,240,.7)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(79,79,79,.9) 34%, rgba(158,155,158,.8) 64%, rgba(240,237,240,.7) 87%, rgba(240,237,240,.7) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(79,79,79,.9) 34%, rgba(158,155,158,.8) 64%, rgba(240,237,240,.7) 87%, rgba(240,237,240,.7) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(79,79,79,.9) 34%, rgba(158,155,158,.8) 64%, rgba(240,237,240,.7) 87%, rgba(240,237,240,.7) 100%);
+ height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#resumeId {
+  color: white;
+}
+#resumeimg {
+  height: 20vh;
+}
+.pt4{
+  background: url('bridge.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.final {
+  height: 100vh;
+}
+#contactInfo {
+  color: white;
+  font-size: 10vh;
+}
+h3 {
+  color: white;
+  max-width: 700px;
+  text-align: center;
+}
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40vh;
+  border: 1vh solid white;
+  height: 50vh;
+  margin-top: 5vh;
+}
+#linked {
+  height: 8vh;
+  padding: 5vh;
+}
+#git {
+  height: 8vh;
+  padding: 5vh;
+}
+.linktop {
+  color: white;
+}
+.linktop:hover {
+  color: grey;
+}
+
+
+
+
+
