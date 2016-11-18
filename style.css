@@ -5,6 +5,7 @@
 body {
   background: url('newport.jpg') no-repeat center center fixed;
   background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 .fixed-nav-bar {
   position: fixed;
@@ -79,7 +80,7 @@ header {
   background: -webkit-linear-gradient(top, rgba(240,237,240,.7) 0%, rgba(158,155,158,.8) 34%, rgba(79,79,79,.9) 64%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%);
   background: -o-linear-gradient(top, rgba(240,237,240,.7) 0%, rgba(158,155,158,.8) 34%, rgba(79,79,79,.9) 64%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%);
   background: -ms-linear-gradient(top, rgba(240,237,240,.7) 0%, rgba(158,155,158,.8) 34%, rgba(79,79,79,.9) 64%, rgba(0,0,00,0,0,1) 100%);
-  height: 100vh;
+height: 100vh;
   width: 100vw;
     display: flex;
   flex-direction: column;
@@ -110,13 +111,30 @@ header {
 p {
   text-indent: 5vh;
 }
-#personButton {
-  width: 5vh;
-  background-color: #E8E8E8;
-  border: .5vh solid black;
+.personal {
+margin-top: 5vh;
+margin-right: 3vh;
 }
+#personButton {
+  color: #666;
+  background-color: #eee;
+  font-size: 1.5vh;
+  padding: 1vh 3vh;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: .3vh solid rgba(0,0,0,0.3);
+  border-bottom-width: .5vh;
+}
+
 #personButton:hover {
-  color: grey;
+  background-color: #e3e3e3;
+  border-color: rgba(0,0,0,0.5);
+}
+
+#personButton:active {
+  background-color: #CCC;
+  border-color: rgba(0,0,0,0.9);
 }
 .quick {
   max-width: 700px;
@@ -126,8 +144,9 @@ p {
   line-height: 3vh;
   margin-top: 5vh;
   font-size: 2.2vh;
-  font-family: 'Lato', sans-serif;
+/*  font-family: 'Lato', sans-serif;*/
   text-align: justify;
+  letter-spacing: .1vh;
 }
 .pt2 {
   background-color: black;
@@ -174,47 +193,45 @@ p {
   background: url('bridge.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .final {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #contactInfo {
+  margin-top: 4vh;
   color: white;
   font-size: 10vh;
+  margin-bottom: 12vh;
 }
 h3 {
   color: white;
   max-width: 700px;
   text-align: center;
+  margin-bottom: 1vh;
 }
 #links {
+  margin-top: 8vh;
+  margin-bottom: 2vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40vh;
   border: 1vh solid white;
-  height: 50vh;
-  margin-top: 5vh;
 }
-#linked {
-  height: 8vh;
-  padding: 5vh;
+
+.fa:hover {
+  cursor: pointer;
+  color: blue !important;
 }
-#git {
-  height: 8vh;
-  padding: 5vh;
-}
-.linktop {
-  color: white;
-}
-.linktop:hover {
-  color: grey;
-}
+
 
 
 
